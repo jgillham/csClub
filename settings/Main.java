@@ -46,6 +46,7 @@ public class Main {
 		  System.out.println( "TESSSSSSSSSST" );
         System.out.println( "Country = " + country );
         System.out.println( "Age = " + age );
+		  System.out.println( "i don't know" );
 
         
     }
