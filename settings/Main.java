@@ -9,6 +9,7 @@ import java.io.File;
  */
 public class Main {
     static public void main( String args[] ) {
+        Test vr= new Test( "This is my message" );
         File settings= null;
         Scanner fileScan= null;
         try {
