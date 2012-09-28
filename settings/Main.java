@@ -33,11 +33,11 @@ public class Main {
                         country= line;
                         receiveCountry= false;
                 } else {
-                        if( line.equals("name") ) {
+                        if( line.equalsIgnoreCase("name") ) {
                                 receiveName= true;
-                        } else if( line.equals( "country" ) ) {
+                        } else if( line.equalsIgnoreCase( "country" ) ) {
                                 receiveCountry= true;
-                        } else if( line.equals( "age" ) ) {
+                        } else if( line.equalsIgnoreCase( "age" ) ) {
                                 receiveAge= true;
                         }
                 }
