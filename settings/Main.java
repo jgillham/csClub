@@ -10,6 +10,11 @@ import java.io.File;
 public class Main {
     static public void main( String args[] ) {
         Test vr= new Test( "This is my message" );
+        Person person= new Person( "Bob", "USA", 28 );
+        
+//        String name2= person.name;
+//        person.getName();
+        
         File settings= null;
         Scanner fileScan= null;
         try {
