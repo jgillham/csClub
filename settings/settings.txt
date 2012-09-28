@@ -1,0 +1,3 @@
+name:=Bob
+country:=usa
+age:=20
