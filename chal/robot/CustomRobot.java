@@ -1,11 +1,22 @@
-
-
+import java.util.SortedSet;
 
 /**
- * Abstract class AbstractRobot - write a description of the class here
  * 
- * @author (your name here)
+ * The robot does not know its own coordinates. This keeps the game fair.
+ * 
+ * @author Josh Gillham
  * @version (version number or date here)
  */
-public abstract class AbstractRobot {
+public class CustomRobot {
+    public enum Action {
+        Forward, Backwards, TurnLeft, TurnRight
+    }
+    
+    public enum Direction {
+        North, East, South, West
+    }
+    
+    public Action makeMove( SortedSet< Action > allowedActions ) {
+        throw new UnsupportedOperationException();
+    }
 }

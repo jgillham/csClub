@@ -35,7 +35,7 @@ MAP:
 -Can check if the robot is facing and next to an object.*
 -Contains a 2D array.*
 -Each cell is defined by a x and a y coordinate.*
--Determines the acceptable moves the robot can make.*
+
 
 GUI:
 -Delegates drawing responsibilities to Map and Robot.
@@ -45,6 +45,7 @@ SIMULATION: // The game logic.
 -Accepts a robot.*
 -Updates the UI.*
 -Takes turns.*
+-Determines the acceptable moves the robot can make.*
 
 COORDINATE:* // Structure
 -Contains an x and y value.
@@ -57,9 +58,5 @@ DIRECTION:* // Enum
 MOVES:* // Enum
 -Contains a list of moves the robot can make.
 -Used to send messages.
-
-
-
-
 
 DETAILS
