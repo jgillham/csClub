@@ -1,5 +1,4 @@
-
-
+import java.io.File;
 
 /**
  * Write a description of class Map here.
@@ -13,6 +12,10 @@ public class Area {
     }
     
     public class Coordinate extends java.awt.Point {
+    }
+    
+    public Area( File source ) {
+        throw new UnsupportedOperationException();
     }
     
     private Thing[][] grid;
